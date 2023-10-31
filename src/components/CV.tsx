@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import cv_pdf from "../assets/Lucas_Gruden_CV.pdf";
 import { faFileArrowDown } from "@fortawesome/free-solid-svg-icons/faFileArrowDown";
+import './CV.css'
 
 function CV() {
   return (

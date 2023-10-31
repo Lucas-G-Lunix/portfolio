@@ -3,6 +3,7 @@ import app_resto from "../assets/app-resto.png";
 import app_conjectura from "../assets/app-conjetura.png";
 import app_weather from "../assets/app-weather.png";
 import app_tenzies from "../assets/app-tenzies.png";
+import './Projects.css';
 
 function Projects() {
   return (

@@ -2,6 +2,7 @@ import portfolio_image from "../assets/portfolio-image.jpg";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons/faLinkedin";
 import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
+import './AboutMe.css'
 
 function AboutMe() {
   var cursor = true;

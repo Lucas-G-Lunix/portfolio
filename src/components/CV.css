@@ -1,0 +1,12 @@
+.CV--main {
+    text-align: center;
+    background-color: rgba(158, 158, 158, 0.4);
+    padding: 15px;
+    border-radius: 10px;
+  }
+  
+  #pdfCV {
+    min-width: 600px;
+    min-height: 500px;
+  }
+  

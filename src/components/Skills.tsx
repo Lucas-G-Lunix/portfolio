@@ -7,13 +7,14 @@ import node_js_logo from "../assets/node-js-logo.svg";
 import express_js_logo from "../assets/express-js-logo.svg";
 import microsoftsqlserver_logo from "../assets/microsoftsqlserver-logo.svg";
 import mysql_logo from "../assets/mysql-logo.svg";
+import './Skills.css'
 
 
 function Skills() {
   return (
     <>
       <h1>Habilidades</h1>
-      <div className="skills--div" id="skills">
+      <section className="skills--div" id="skills">
         <div className="skills--lenguages">
           <h3>Lenguajes</h3>
           <p><img className="logo--skills" src={javascript_logo}></img> JavaScript</p>
@@ -34,7 +35,7 @@ function Skills() {
           <p><img className="logo--skills" src={microsoftsqlserver_logo}></img>Microsoft SQL Server</p>
           <p><img className="logo--skills" src={mysql_logo}></img>My SQL</p>
         </div>
-      </div>
+      </section>
     </>
   )
 }

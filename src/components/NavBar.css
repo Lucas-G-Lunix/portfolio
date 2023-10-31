@@ -1,0 +1,23 @@
+.navbar--main {
+  display: flex;
+  align-items: center;
+  background-color: #171923;
+  padding: 10px 15px;
+}
+
+.navbar--title {
+  margin-right: auto;
+  justify-content: space-between;
+}
+
+.navbar--button {
+  margin: 3px;
+  padding: 5px;
+  color: white;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.navbar--button:hover {
+  background-color: gray;
+}
